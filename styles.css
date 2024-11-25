@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    
+    width: 100%;
+  }
+
+  .logo {
+    width: 15%;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+
+.botoes-container {
+    display: flex; 
+    gap: 10px; 
+    justify-content: flex-end; 
+    margin-top: -8%;
+    margin-right: 15%;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+  
+
+  .mb-4 {
+    margin-top: 5%;    
+  }
+
+  .card {
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; 
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  /* Alterando o estilo do card ao passar o mouse */
+  .card:hover {
+    transform: translateY(-10px); 
+  }
+  
+  /* Estilizando a caixa de conteúdo */
+  #box {
+    background-color: #232323; 
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left; 
+  }
+  
+  /* Estilo para o título do card */
+  .card-title {
+    color: #1E90FF; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Estilo para os parágrafos */
+  #box p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: center; 
+  }
+  
+  /* Destaque para os rótulos (IDs, Descrição, Data, Funcionários) */
+  #box strong {
+    color: #1E90FF; 
+  }
+  
+ 
+  #box p {
+    color: #dcdcdc; 
+  }
+  
+ 
+  #box p + p {
+    border-top: 1px solid #333333;
+    padding-top: 10px;
+  }
